@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小熊</title>
+
+    <style>
+        body {
+            background-color: #c6adec;
+        }
+
+        @keyframes bear {
+            0% {}
+
+            100% {
+                background-position: -1600px 0;
+            }
+        }
+
+        div {
+            width: 200px;
+            height: 100px;
+            margin: 300px auto;
+            background: url(images/bear.png) no-repeat;
+            animation: bear 500ms steps(8) infinite;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div></div>
+</body>
+
+</html>
